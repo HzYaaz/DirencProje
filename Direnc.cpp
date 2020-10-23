@@ -1,10 +1,4 @@
-// Yağızcem CENGİZ
-// 170757058
-// Bilgisayar Mühendisliği
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarıyıl)
-// Proje2
-// Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER
+// YaÄŸÄ±zcem CENGÄ°Z
 
 
 #include "Direnc.h"
@@ -12,19 +6,19 @@
 using namespace std;
 
 
-void Direnc::DegerAta(int r1)    // Main fonksiyonunun içinde tanımladığımız R (direnç) değişkenimizi , burada tanımladığımız r1 değişkenine atıyoruz. 
-{								// r1 diye tanımlama nedenimiz , compile ederken herhangi bir hatayla karşılaşmamak için.
+void Direnc::DegerAta(int r1)    // Main fonksiyonunun iÃ§inde tanÄ±mladÄ±ÄŸÄ±mÄ±z R (direnÃ§) deÄŸiÅŸkenimizi , burada tanÄ±mladÄ±ÄŸÄ±mÄ±z r1 deÄŸiÅŸkenine atÄ±yoruz. 
+{								// r1 diye tanÄ±mlama nedenimiz , compile ederken herhangi bir hatayla karÅŸÄ±laÅŸmamak iÃ§in.
 	r = r1;
 }
 
-double Direnc::AkimHesapla(double katsayi)		// Main fonksiyonu içindeki kullanıcıdan aldığımız V (gerilim) katsayı değişkenini , burada tanımladığımız katsayi değişkenine atıyoruz.
+double Direnc::AkimHesapla(double katsayi)		// Main fonksiyonu iÃ§indeki kullanÄ±cÄ±dan aldÄ±ÄŸÄ±mÄ±z V (gerilim) katsayÄ± deÄŸiÅŸkenini , burada tanÄ±mladÄ±ÄŸÄ±mÄ±z katsayi deÄŸiÅŸkenine atÄ±yoruz.
 {									
 	v = katsayi;
-	i = (double) v / r;    // iki değer de tam sayı olacağından ve bunlar bölüneceğinden dolayı , sonucu double döndürüyoruz.
+	i = (double) v / r;    // iki deÄŸer de tam sayÄ± olacaÄŸÄ±ndan ve bunlar bÃ¶lÃ¼neceÄŸinden dolayÄ± , sonucu double dÃ¶ndÃ¼rÃ¼yoruz.
 	return i;
 }
 
-int Direnc::GerilimHesapla(int katsayi)		//	Burada da aynı şekilde main fonksiyonunun içinde kullanıcıdan aldığımız I (akım) katsayı değişkenini , burada tanımladığımız katsayi değişkenine atıyoruz.
+int Direnc::GerilimHesapla(int katsayi)		//	Burada da aynÄ± ÅŸekilde main fonksiyonunun iÃ§inde kullanÄ±cÄ±dan aldÄ±ÄŸÄ±mÄ±z I (akÄ±m) katsayÄ± deÄŸiÅŸkenini , burada tanÄ±mladÄ±ÄŸÄ±mÄ±z katsayi deÄŸiÅŸkenine atÄ±yoruz.
 {
 	i = katsayi;		
 	v = i * r;
