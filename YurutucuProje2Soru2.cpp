@@ -1,10 +1,4 @@
-// Yağızcem CENGİZ
-// 170757058
-// Bilgisayar Mühendisliği
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarıyıl)
-// Proje2
-// Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER
+// YaÄŸÄ±zcem CENGÄ°Z
 
 
 #include "Direnc.h"
@@ -18,13 +12,13 @@ int main()
     double katsayi;
 
     cout << "R direnc parametresinin degeri olarak bir sayi giriniz : "; //
-    cin >> r;															 // Bu 3 kod satırında , kullanıcıdan R (direnç) parametre değerini istiyoruz ve bu girilen değeri DegerAta() fonksiyonundaki r1'e eşitliyoruz.
+    cin >> r;															 // Bu 3 kod satÄ±rÄ±nda , kullanÄ±cÄ±dan R (direnÃ§) parametre deÄŸerini istiyoruz ve bu girilen deÄŸeri DegerAta() fonksiyonundaki r1'e eÅŸitliyoruz.
     direnc.DegerAta(r);													//
     
 	cout << endl;
     
     cout << "V gerilim parametresinin degeri olarak bir tamsayi giriniz : "; //
-    cin >> katsayi;															 // Bu 3 kod satırında , kullanicidan V (gerilim) parametre değerini alıyoruz ve direnc.AkimHesapla(katsayi) fonksiyonumuzla AkimHesapla() fonksiyonu içindeki işlemi yaptırıp , yazdırıyoruz.
+    cin >> katsayi;															 // Bu 3 kod satÄ±rÄ±nda , kullanicidan V (gerilim) parametre deÄŸerini alÄ±yoruz ve direnc.AkimHesapla(katsayi) fonksiyonumuzla AkimHesapla() fonksiyonu iÃ§indeki iÅŸlemi yaptÄ±rÄ±p , yazdÄ±rÄ±yoruz.
     cout << endl << "Akim (I): " << direnc.AkimHesapla(katsayi) << endl;     //
 
     cout << endl;
@@ -32,7 +26,7 @@ int main()
     cout << "R direnc parametresinin degeri olarak bir sayi giriniz : ";     //
     cin >> r;															     //
     direnc.DegerAta(r); 													 //
-    cout << endl;															 //	Yeniden R değişkenini alıyoruz. Çünkü bu sefer V (gerilim)'yi hesaplattıracağız.  Tekrardan R yi kullanıcıdan alıp , fonksiyonumuza değerimizi atıyoruz. Ardından Akım(I) yı alıp GerilimHesapla() fonksiyonu içindeki işlemi yaptırıp , yazdırıyoruz.
+    cout << endl;															 //	Yeniden R deÄŸiÅŸkenini alÄ±yoruz. Ã‡Ã¼nkÃ¼ bu sefer V (gerilim)'yi hesaplattÄ±racaÄŸÄ±z.  Tekrardan R yi kullanÄ±cÄ±dan alÄ±p , fonksiyonumuza deÄŸerimizi atÄ±yoruz. ArdÄ±ndan AkÄ±m(I) yÄ± alÄ±p GerilimHesapla() fonksiyonu iÃ§indeki iÅŸlemi yaptÄ±rÄ±p , yazdÄ±rÄ±yoruz.
     cout << "I akim parametresinin degeri olarak bir sayi giriniz : ";		//
     cin >> katsayi;															//
     cout << endl << "Gerilim (V): " << direnc.GerilimHesapla(katsayi) << endl; //
