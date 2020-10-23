@@ -1,17 +1,12 @@
-// Yağızcem CENGİZ
-// 170757058
-// Bilgisayar Mühendisliği
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarıyıl)
-// Proje2
-// Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER
+// YaÃ°Ã½zcem CENGÃZ
+
 
 
 #include <iostream>
 using namespace std;
 
 
-class Direnc			// İstenilen gibi değişkenlerimizi ve fonksiyonlarımızı oluşturuyoruz.
+class Direnc			// Ãstenilen gibi deÃ°iÃ¾kenlerimizi ve fonksiyonlarÃ½mÃ½zÃ½ oluÃ¾turuyoruz.
 {
 	public:
 		void DegerAta(int);
